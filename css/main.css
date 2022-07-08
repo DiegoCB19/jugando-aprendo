@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #1f2023;
+  border: #5f5a51 solid 1px; }
+  header h1 {
+    text-align: center; }
+
+h1 {
+  margin-top: 1rem; }
+
+p, h1, h2, h3 {
+  padding: 0rem 3rem;
+  color: #e8f4fb; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  background-color: #292d30; }
+
+.imagenes {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  justify-items: center; }
+
+img {
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  padding-left: 3rem;
+  padding-top: 1rem 1rem;
+  width: 20%;
+  height: 10%; }
+
+main {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #252527;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.header_somos h1 {
+  margin-top: 1rem; }
+
+.somos_1 section article h2 {
+  margin-top: 3rem; }
+
+.somos_1 section article p {
+  margin-top: 2rem; }
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  .section1 article h2 {
+    height: 100%;
+    padding: 1rem;
+    text-align: center; }
+  .section1 article p {
+    height: 100%;
+    padding: 15px;
+    border-spacing: 10px;
+    text-align: center; }
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  .section2 article h2 {
+    text-align: left;
+    height: 100%; }
+  .section2 article p {
+    height: 100%;
+    text-align: left; }
+
+.secction3 {
+  display: flex; }
+  .secction3 article h3 {
+    margin: 4rem;
+    text-align: center;
+    width: 30px; }
+  .secction3 article p {
+    padding: 15px;
+    border-spacing: 10px;
+    text-align: center; }
+
+.titulo_1 {
+  padding: 1rem;
+  text-align: center; }
+
+.section-1 {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .section-1 h2 {
+    margin: 2rem; }
+
+.final-valor {
+  margin: 2rem;
+  text-align: center;
+  height: 100%; }
+
+.tabla {
+  width: 65%; }
+  .tabla tr {
+    border: #5f5a51 solid 1px;
+    letter-spacing: 200px; }
+  .tabla td {
+    border-radius: #5f5a51 solid 1px;
+    letter-spacing: 2px; }
+
+.img1:hover {
+  transform: scale(1.1); }
+
+.img2:hover {
+  transform: scale(1.1); }
+
+.img3:hover {
+  transform: scale(1.1); }
+
+.foot {
+  flex-direction: end;
+  background-color: #1f2023;
+  height: 100%; }
